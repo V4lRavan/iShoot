@@ -15,7 +15,7 @@ C:/temp/iShoot
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-58740
+64042
 Successfully changed project path to: C:/temp/iShoot
 C:/temp/iShoot
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ C:/temp/iShoot
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [12772] Host "[IP] 192.168.0.198 [Port] 0 [Flags] 2 [Guid] 3843206070 [EditorId] 3843206070 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-CB8OTIG) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [13000] Host "[IP] 192.168.0.198 [Port] 0 [Flags] 2 [Guid] 1078956819 [EditorId] 1078956819 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-CB8OTIG) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [12772] Host "[IP] 192.168.0.198 [Port] 0 [Flags] 2 [Guid] 3843206070 [EditorId] 3843206070 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-CB8OTIG) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [13000] Host "[IP] 192.168.0.198 [Port] 0 [Flags] 2 [Guid] 1078956819 [EditorId] 1078956819 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-CB8OTIG) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
-Refreshing native plugins compatible for Editor in 10.69 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 13.77 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.13f1 (5f90a5ebde0f)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.13f1/Editor/Data/Resources/UnitySubsystems
@@ -70,44 +70,44 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.13f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.13f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.13f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56352
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56164
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.13f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.014767 seconds.
-- Loaded All Assemblies, in  0.435 seconds
+Registered in 0.014969 seconds.
+- Loaded All Assemblies, in  0.511 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.308 seconds
-Domain Reload Profiling: 739ms
-	BeginReloadAssembly (141ms)
+- Finished resetting the current domain, in  0.351 seconds
+Domain Reload Profiling: 856ms
+	BeginReloadAssembly (139ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (41ms)
-	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (79ms)
-	LoadAllAssembliesAndSetupDomain (156ms)
-		LoadAssemblies (137ms)
+	RebuildCommonClasses (59ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (90ms)
+	LoadAllAssembliesAndSetupDomain (203ms)
+		LoadAssemblies (134ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (154ms)
-			TypeCache.Refresh (152ms)
-				TypeCache.ScanAssembly (133ms)
+		AnalyzeDomain (201ms)
+			TypeCache.Refresh (198ms)
+				TypeCache.ScanAssembly (178ms)
 			ScanForSourceGeneratedMonoScriptInfo (1ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (308ms)
+	FinalizeReload (351ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (231ms)
+		SetupLoadedEditorAssemblies (264ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (17ms)
-			SetLoadedEditorAssemblies (10ms)
+			InitializePlatformSupportModulesInManaged (15ms)
+			SetLoadedEditorAssemblies (11ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (3ms)
-			ProcessInitializeOnLoadAttributes (148ms)
-			ProcessInitializeOnLoadMethodAttributes (54ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (172ms)
+			ProcessInitializeOnLoadMethodAttributes (64ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -115,55 +115,55 @@ Domain Reload Profiling: 739ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.833 seconds
-Refreshing native plugins compatible for Editor in 4.35 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.910 seconds
+Refreshing native plugins compatible for Editor in 5.00 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.655 seconds
-Domain Reload Profiling: 1480ms
-	BeginReloadAssembly (174ms)
+- Finished resetting the current domain, in  0.775 seconds
+Domain Reload Profiling: 1680ms
+	BeginReloadAssembly (201ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (27ms)
-	RebuildCommonClasses (42ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (50ms)
-	LoadAllAssembliesAndSetupDomain (547ms)
-		LoadAssemblies (429ms)
+		CreateAndSetChildDomain (35ms)
+	RebuildCommonClasses (40ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (58ms)
+	LoadAllAssembliesAndSetupDomain (593ms)
+		LoadAssemblies (410ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (218ms)
-			TypeCache.Refresh (187ms)
-				TypeCache.ScanAssembly (168ms)
-			ScanForSourceGeneratedMonoScriptInfo (23ms)
-			ResolveRequiredComponents (6ms)
-	FinalizeReload (655ms)
+		AnalyzeDomain (297ms)
+			TypeCache.Refresh (262ms)
+				TypeCache.ScanAssembly (232ms)
+			ScanForSourceGeneratedMonoScriptInfo (25ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (775ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (474ms)
+		SetupLoadedEditorAssemblies (580ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (8ms)
-			SetLoadedEditorAssemblies (3ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (79ms)
-			ProcessInitializeOnLoadAttributes (351ms)
-			ProcessInitializeOnLoadMethodAttributes (21ms)
-			AfterProcessingInitializeOnLoad (12ms)
+			BeforeProcessingInitializeOnLoad (92ms)
+			ProcessInitializeOnLoadAttributes (430ms)
+			ProcessInitializeOnLoadMethodAttributes (29ms)
+			AfterProcessingInitializeOnLoad (16ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (8ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 5.83 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (12ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 6.04 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3722 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 51 unused Assets / (177.4 KB). Loaded Objects now: 4185.
-Memory consumption went from 148.0 MB to 147.9 MB.
-Total: 6.972900 ms (FindLiveObjects: 0.630900 ms CreateObjectMapping: 0.145700 ms MarkObjects: 5.922300 ms  DeleteObjects: 0.271500 ms)
+Memory consumption went from 148.2 MB to 148.0 MB.
+Total: 4.016300 ms (FindLiveObjects: 0.605500 ms CreateObjectMapping: 0.124600 ms MarkObjects: 3.058000 ms  DeleteObjects: 0.226100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -178,22 +178,439 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 103051.062757 seconds.
+  Time since last request: 506521.939738 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc
+  artifactKey: Guid(c334973cef89a9840b0b0c507e0377ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc using Guid(c334973cef89a9840b0b0c507e0377ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e89aac6116b5a11d060d91c8f656438e') in 0.088820 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Scenes/Level 3/NavMesh.asset
+  artifactKey: Guid(48bdf9025c0a89b48bf6adad56a4763c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/Level 3/NavMesh.asset using Guid(48bdf9025c0a89b48bf6adad56a4763c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '93f03abbb3b29d5dfc9a6717c61b4425') in 0.041935 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/GLASSOFCOINS - FPS low poly fps/ar1(automatic rifle)/ar2(automatic rifle)_prefab/ar1(automatic rifle)_prefab.prefab
+  artifactKey: Guid(c7ec0e3c8dc442643b5f8785c5f4f187) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GLASSOFCOINS - FPS low poly fps/ar1(automatic rifle)/ar2(automatic rifle)_prefab/ar1(automatic rifle)_prefab.prefab using Guid(c7ec0e3c8dc442643b5f8785c5f4f187) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a5fae41633a7b015a98beaa0925bd4fb') in 0.027831 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 140
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Character/bang_01.ogg
+  artifactKey: Guid(b78ea3ad47f89654c89e1afe5f7f1cd2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Character/bang_01.ogg using Guid(b78ea3ad47f89654c89e1afe5f7f1cd2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2db0c45b980891304755ee0f8f33ae33') in 0.093517 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/GLASSOFCOINS - FPS low poly fps/ar1(automatic rifle)/ar1(automatic rifle)_anim/ar1(automatic rifle)_hands_AimWalk_ar1(automatic rifle).anim
+  artifactKey: Guid(d0d6a39a6c9b95e4fa5c7ed615061a32) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GLASSOFCOINS - FPS low poly fps/ar1(automatic rifle)/ar1(automatic rifle)_anim/ar1(automatic rifle)_hands_AimWalk_ar1(automatic rifle).anim using Guid(d0d6a39a6c9b95e4fa5c7ed615061a32) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '19b93ff9a4998a44049085d39d7fe41d') in 0.026721 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/GLASSOFCOINS - FPS low poly fps/ar1(automatic rifle)/ar1(automatic rifle)_anim/ar1(automatic rifle)_hands_Run_ar1(automatic rifle).anim
+  artifactKey: Guid(4e5fa158baf65db40a00ea3a6972b63e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GLASSOFCOINS - FPS low poly fps/ar1(automatic rifle)/ar1(automatic rifle)_anim/ar1(automatic rifle)_hands_Run_ar1(automatic rifle).anim using Guid(4e5fa158baf65db40a00ea3a6972b63e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '70a43c8640dcce2cbad23f1d8509777b') in 0.037281 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000890 seconds.
+  path: Assets/Scenes/Level 1.unity
+  artifactKey: Guid(0771d1fb70f61a949a16bff8aa81be68) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/Level 1.unity using Guid(0771d1fb70f61a949a16bff8aa81be68) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7f4db0a83ff8421b74a4f7e4a2cc096a') in 0.017889 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Scenes/Level 2.unity
+  artifactKey: Guid(d6743406ceb52db42ac5aec21330bd1f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/Level 2.unity using Guid(d6743406ceb52db42ac5aec21330bd1f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1f374a0c3f9669d5e4f6f81a32f14baa') in 0.015725 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
   path: Assets/crosshair005.png
-  artifactKey: Guid(b8471cdba035f8343a60bf09b248c2ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/crosshair005.png using Guid(b8471cdba035f8343a60bf09b248c2ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6df58a7c2c45a5064b957714e3ca630') in 0.142642 seconds
+  artifactKey: Guid(b8471cdba035f8343a60bf09b248c2ad) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/crosshair005.png using Guid(b8471cdba035f8343a60bf09b248c2ad) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'eb3a0dc1da0bd5b6b8bc8689492d6930') in 0.096473 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/goddamn circle.png
-  artifactKey: Guid(43cd80ae1eb72e14a958b5249ff47a37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/goddamn circle.png using Guid(43cd80ae1eb72e14a958b5249ff47a37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61eef66200e1705865bb75aaecac8a1f') in 0.027775 seconds
+  Time since last request: 0.000026 seconds.
+  path: Assets/GLASSOFCOINS - FPS low poly fps/pistol1/pistol1_anim/pistol1_hands_AimShoot_pistol1.anim
+  artifactKey: Guid(e0498a147da9dfb4fbd4c04d23d38fdd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GLASSOFCOINS - FPS low poly fps/pistol1/pistol1_anim/pistol1_hands_AimShoot_pistol1.anim using Guid(e0498a147da9dfb4fbd4c04d23d38fdd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '577cdfe9ab7cb1ac30781e2f3995b5b9') in 0.033340 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/GLASSOFCOINS - FPS low poly fps/attachements/attachments_prefabs/Laser_Module_prefab.prefab
+  artifactKey: Guid(dab64f0728d77d2418f0f33212a47303) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GLASSOFCOINS - FPS low poly fps/attachements/attachments_prefabs/Laser_Module_prefab.prefab using Guid(dab64f0728d77d2418f0f33212a47303) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '89ed4359da6c892507ec928281479d63') in 0.023554 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/GLASSOFCOINS - FPS low poly fps/ar1(automatic rifle)/ar1(automatic rifle)_anim/ar1(automatic rifle)_hands_AimIdle_ar1(automatic rifle).anim
+  artifactKey: Guid(9d6a4f0191b2ad3468bce8c6b1dd1708) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GLASSOFCOINS - FPS low poly fps/ar1(automatic rifle)/ar1(automatic rifle)_anim/ar1(automatic rifle)_hands_AimIdle_ar1(automatic rifle).anim using Guid(9d6a4f0191b2ad3468bce8c6b1dd1708) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9f81a584201f12af581fae887bd0199c') in 0.023008 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/GLASSOFCOINS - FPS low poly fps/shotgun1/shotgun1.fbx
+  artifactKey: Guid(3b05f053ef217764798ada4e18051b01) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GLASSOFCOINS - FPS low poly fps/shotgun1/shotgun1.fbx using Guid(3b05f053ef217764798ada4e18051b01) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ca0789ba69214b9f0845d7244d4b1b0a') in 0.124757 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 143
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/GLASSOFCOINS - FPS low poly fps/shotgun2/shotgun2.fbx
+  artifactKey: Guid(86b02dce0f932004fb0cc294ef8ba5e6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GLASSOFCOINS - FPS low poly fps/shotgun2/shotgun2.fbx using Guid(86b02dce0f932004fb0cc294ef8ba5e6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '711297ab26c109f2ba9a2a668b4cba20') in 0.112384 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 148
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/GLASSOFCOINS - FPS low poly fps/bullets/bullet_prefabs/7.62x51_Bullet_No_Projectile_prefab.prefab
+  artifactKey: Guid(c5cae7811a5a9cd4d9a3406957a51340) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GLASSOFCOINS - FPS low poly fps/bullets/bullet_prefabs/7.62x51_Bullet_No_Projectile_prefab.prefab using Guid(c5cae7811a5a9cd4d9a3406957a51340) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1483088b3f5d4f31e42b72ddcfa59e16') in 0.015786 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader
+  artifactKey: Guid(14eb328de4b8eb245bb7cea29e4ac00b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader using Guid(14eb328de4b8eb245bb7cea29e4ac00b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ee28f1d0597c0b92a6071a9a500909ea') in 0.020737 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/GLASSOFCOINS - FPS low poly fps/ar2(automatic rifle)/ar2(automatic rifle).fbx
+  artifactKey: Guid(f3c17a0215984b14abdef7e4c67297f1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GLASSOFCOINS - FPS low poly fps/ar2(automatic rifle)/ar2(automatic rifle).fbx using Guid(f3c17a0215984b14abdef7e4c67297f1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '359e7fadc20a4f974190afe64af30805') in 0.090821 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 152
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/GLASSOFCOINS - FPS low poly fps/sniper rifle 1/sniper rifle 1_anim/sniper rifle 1_hands_Aim_sniper rifle 1.anim
+  artifactKey: Guid(c9c7cce81d3a77c409b487ff888d2361) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GLASSOFCOINS - FPS low poly fps/sniper rifle 1/sniper rifle 1_anim/sniper rifle 1_hands_Aim_sniper rifle 1.anim using Guid(c9c7cce81d3a77c409b487ff888d2361) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '29436993c51d6669dc4b8f315b0872eb') in 0.021145 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/GLASSOFCOINS - FPS low poly fps/smg2(sub-machine gun)/smg2(sub-machine gun)_anim/smg2(sub-machine gun)_hands_ReloadNoAmmo_smg2(sub-machine gun).anim
+  artifactKey: Guid(f7b4e291310594b49b38fe47d97d1c94) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GLASSOFCOINS - FPS low poly fps/smg2(sub-machine gun)/smg2(sub-machine gun)_anim/smg2(sub-machine gun)_hands_ReloadNoAmmo_smg2(sub-machine gun).anim using Guid(f7b4e291310594b49b38fe47d97d1c94) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7177babb085eeb4d75334f5767f6febf') in 0.021819 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/GLASSOFCOINS - FPS low poly fps/shotgun2/shotgun2_anim/shotgun2_hands_Idle_shotgun2.anim
+  artifactKey: Guid(2cd6da296c294bb4cae87d3986e1ff83) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GLASSOFCOINS - FPS low poly fps/shotgun2/shotgun2_anim/shotgun2_hands_Idle_shotgun2.anim using Guid(2cd6da296c294bb4cae87d3986e1ff83) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '49e19f3f4ae09dba7b7455652626ef1a') in 0.020195 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/GLASSOFCOINS - FPS low poly fps/pistol2/pistol2_anim/pistol2_hands_Run_pistol2.anim
+  artifactKey: Guid(858c1d3db1558b04c923909e45998734) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GLASSOFCOINS - FPS low poly fps/pistol2/pistol2_anim/pistol2_hands_Run_pistol2.anim using Guid(858c1d3db1558b04c923909e45998734) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c3a34bf0cf4beab6462698038277b940') in 0.021325 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/GLASSOFCOINS - FPS low poly fps/shotgun2/shotgun2_anim/shotgun2_hands_ReloadNoAmmo_shotgun2.anim
+  artifactKey: Guid(6bca397aa2ca40342a7a17413ac029d3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GLASSOFCOINS - FPS low poly fps/shotgun2/shotgun2_anim/shotgun2_hands_ReloadNoAmmo_shotgun2.anim using Guid(6bca397aa2ca40342a7a17413ac029d3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ea7cc2702cf90ef19794f339a10d866b') in 0.025618 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/GLASSOFCOINS - FPS low poly fps/sniper rifle 1/sniper rifle 1_anim/sniper rifle 1_hands_AimIdle_sniper rifle 1.anim
+  artifactKey: Guid(fe600e8825f993748a0ad5f49661833f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GLASSOFCOINS - FPS low poly fps/sniper rifle 1/sniper rifle 1_anim/sniper rifle 1_hands_AimIdle_sniper rifle 1.anim using Guid(fe600e8825f993748a0ad5f49661833f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '582859be1c2155804f604a25750b7212') in 0.021091 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/GLASSOFCOINS - FPS low poly fps/pistol2/pistol2_anim/pistol2_hands_Aim_pistol2.anim
+  artifactKey: Guid(094dc8fb0de80534a87c4abb0339f5ae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GLASSOFCOINS - FPS low poly fps/pistol2/pistol2_anim/pistol2_hands_Aim_pistol2.anim using Guid(094dc8fb0de80534a87c4abb0339f5ae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '96bb49da8d9c88f8c85aeeea7005d176') in 0.021121 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/GLASSOFCOINS - FPS low poly fps/smg2(sub-machine gun)/smg2(sub-machine gun)_anim/smg2(sub-machine gun)_hands_AimWalk_smg2(sub-machine gun).anim
+  artifactKey: Guid(7125bd2f0a4395d42beb1f1dcce97061) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GLASSOFCOINS - FPS low poly fps/smg2(sub-machine gun)/smg2(sub-machine gun)_anim/smg2(sub-machine gun)_hands_AimWalk_smg2(sub-machine gun).anim using Guid(7125bd2f0a4395d42beb1f1dcce97061) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '57a2959cdafab6fdd6d6d6f3dea73756') in 0.024005 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/GLASSOFCOINS - FPS low poly fps/shotgun2/shotgun2_anim/shotgun2_hands_Run_shotgun2.anim
+  artifactKey: Guid(3aa924fe0288e98499381b789e497284) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GLASSOFCOINS - FPS low poly fps/shotgun2/shotgun2_anim/shotgun2_hands_Run_shotgun2.anim using Guid(3aa924fe0288e98499381b789e497284) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7aeac3a4ca9cd702d68e840904aa96e5') in 0.021759 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/GLASSOFCOINS - FPS low poly fps/ar1(automatic rifle)/ar1(automatic rifle)_anim/ar1(automatic rifle)_hands_Reload_ar1(automatic rifle).anim
+  artifactKey: Guid(cad0ad0b93952d54a936827e0c9c6865) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GLASSOFCOINS - FPS low poly fps/ar1(automatic rifle)/ar1(automatic rifle)_anim/ar1(automatic rifle)_hands_Reload_ar1(automatic rifle).anim using Guid(cad0ad0b93952d54a936827e0c9c6865) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '68c5b396ff764383535c6aedc8c08a8a') in 0.022932 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Scripts/MainMenu.cs
+  artifactKey: Guid(df306ae61da159b4f8d0d18dd6d870d6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/MainMenu.cs using Guid(df306ae61da159b4f8d0d18dd6d870d6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '89e572b9d117811d24ecae8913836496') in 0.014962 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/GLASSOFCOINS - FPS low poly fps/smg1(sub-machine gun)/smg1(sub-machine gun)_anim/smg1(sub-machine gun)_hands_Reload_smg1(sub-machine gun).anim
+  artifactKey: Guid(6d78d6a13381a4147abd47aaff0cb534) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GLASSOFCOINS - FPS low poly fps/smg1(sub-machine gun)/smg1(sub-machine gun)_anim/smg1(sub-machine gun)_hands_Reload_smg1(sub-machine gun).anim using Guid(6d78d6a13381a4147abd47aaff0cb534) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '67c3f7a57d2c9b90ec35a0bc2ac7fce9') in 0.023374 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/GLASSOFCOINS - FPS low poly fps/bullets/bullet_prefabs/7.62x51_Bullet_prefab.prefab
+  artifactKey: Guid(43e328bae3536a84eaca0891841b6f1d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GLASSOFCOINS - FPS low poly fps/bullets/bullet_prefabs/7.62x51_Bullet_prefab.prefab using Guid(43e328bae3536a84eaca0891841b6f1d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd464043cb6ea21826fcc0d8e305e2b1d') in 0.016636 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Pause.prefab
+  artifactKey: Guid(23503d43fb4727f46aa6c4f699dc0ee7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Pause.prefab using Guid(23503d43fb4727f46aa6c4f699dc0ee7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5b15af192a8cec833d93de155e042c46') in 0.101037 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 51
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/GLASSOFCOINS - FPS low poly fps/smg2(sub-machine gun)/smg2(sub-machine gun).fbx
+  artifactKey: Guid(9dc5517fd53dccb40b195e1098d5ebb4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GLASSOFCOINS - FPS low poly fps/smg2(sub-machine gun)/smg2(sub-machine gun).fbx using Guid(9dc5517fd53dccb40b195e1098d5ebb4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9a154dd115dca45c91a284f8ea578faa') in 0.084157 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 148
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Enemy/Enemy.prefab
+  artifactKey: Guid(fd9ff0a8e91c522418039a4c3d67c66b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Enemy/Enemy.prefab using Guid(fd9ff0a8e91c522418039a4c3d67c66b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '92f04354da51f07193aae346f27e130e') in 0.043505 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 652
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/GLASSOFCOINS - FPS low poly fps/sniper rifle 2/sniper rifle 2_anim/sniper rifle 2_hands_ReloadNoAmmo_sniper rifle 2.anim
+  artifactKey: Guid(26b6574cea98c9b43aef09759bdbb153) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GLASSOFCOINS - FPS low poly fps/sniper rifle 2/sniper rifle 2_anim/sniper rifle 2_hands_ReloadNoAmmo_sniper rifle 2.anim using Guid(26b6574cea98c9b43aef09759bdbb153) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a22301df7f58959d5c9c2171100c9ad2') in 0.027766 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/GLASSOFCOINS - FPS low poly fps/sniper rifle 2/sniper rifle 2_prefab/sniper rifle 2_prefab.prefab
+  artifactKey: Guid(e581606b6012b2540aa3d74eb50adeaa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GLASSOFCOINS - FPS low poly fps/sniper rifle 2/sniper rifle 2_prefab/sniper rifle 2_prefab.prefab using Guid(e581606b6012b2540aa3d74eb50adeaa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0c100b8fc451238b332afdc2f750377c') in 0.019393 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 136
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+  artifactKey: Guid(2e498d1c8094910479dc3e1b768306a4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset using Guid(2e498d1c8094910479dc3e1b768306a4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f320d30513267640b0d58883d52554d2') in 0.037494 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Scripts/PauseMenu.cs
+  artifactKey: Guid(a401514c3a8de694f8ca457489d4a18f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/PauseMenu.cs using Guid(a401514c3a8de694f8ca457489d4a18f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd2d29ef150e08a9f08eb95771271036b') in 0.014155 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader
+  artifactKey: Guid(85187c2149c549c5b33f0cdb02836b17) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader using Guid(85187c2149c549c5b33f0cdb02836b17) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ec2757992d0239f2a839a6ec419aca35') in 0.018058 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/GLASSOFCOINS - FPS low poly fps/pistol2/pistol2_prefab/pistol2_prefab.prefab
+  artifactKey: Guid(04de0ee90ea561d4db31520ec24add8c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GLASSOFCOINS - FPS low poly fps/pistol2/pistol2_prefab/pistol2_prefab.prefab using Guid(04de0ee90ea561d4db31520ec24add8c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9cf9b67e11e78a3a46059b73a3f6f58d') in 0.016650 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 136
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/GLASSOFCOINS - FPS low poly fps/sniper rifle 1/sniper rifle 1_prefab/sniper rifle 1_prefab.prefab
+  artifactKey: Guid(81ecbb98da80cb044bca47d1c79a1a20) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GLASSOFCOINS - FPS low poly fps/sniper rifle 1/sniper rifle 1_prefab/sniper rifle 1_prefab.prefab using Guid(81ecbb98da80cb044bca47d1c79a1a20) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b8b16c781faac99e861094bda4616687') in 0.014553 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 136
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/GLASSOFCOINS - FPS low poly fps/throwables/throwables.fbx
+  artifactKey: Guid(0296b04e27ab65b43be4999dfba2abdb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/GLASSOFCOINS - FPS low poly fps/throwables/throwables.fbx using Guid(0296b04e27ab65b43be4999dfba2abdb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4ab4a5f5c576253f110bc9afad3e11aa') in 0.029653 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 6.62 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5 unused Assets / (117.3 KB). Loaded Objects now: 4187.
+Memory consumption went from 82.3 MB to 82.2 MB.
+Total: 6.606900 ms (FindLiveObjects: 0.998800 ms CreateObjectMapping: 0.182200 ms MarkObjects: 5.247900 ms  DeleteObjects: 0.175900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 5.58 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3 unused Assets / (142.2 KB). Loaded Objects now: 4187.
+Memory consumption went from 82.6 MB to 82.5 MB.
+Total: 5.596200 ms (FindLiveObjects: 0.786600 ms CreateObjectMapping: 0.175000 ms MarkObjects: 4.474300 ms  DeleteObjects: 0.159100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 4.60 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3 unused Assets / (142.0 KB). Loaded Objects now: 4187.
+Memory consumption went from 82.6 MB to 82.5 MB.
+Total: 3.694700 ms (FindLiveObjects: 0.424700 ms CreateObjectMapping: 0.101500 ms MarkObjects: 3.031400 ms  DeleteObjects: 0.136100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
